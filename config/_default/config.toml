@@ -47,8 +47,3 @@ googleAnalytics = ""
     baseName = "index"
     isPlainText = true
     notAlternative = true
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
