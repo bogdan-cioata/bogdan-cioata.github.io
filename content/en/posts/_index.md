@@ -1,7 +1,7 @@
 +++
 aliases = ["posts","articles","blog","showcase","docs"]
 title = "Posts"
-author = "Hugo Authors"
+author = "Bogdan Cioată"
 tags = ["index"]
-description = "Post page"
+description = "Blog articles page"
 +++

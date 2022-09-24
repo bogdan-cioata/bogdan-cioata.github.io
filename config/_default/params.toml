@@ -1,11 +1,12 @@
 logoText = "Bogdan Cioată"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "Bogdan Cioată's presentation website"
+welcomeMessage = "I’m a cloud data engineer and here is where I write down what I learn at work or in my own time."
 custom_css = []
 custom_js = []
-useFaviconGenerator = true # https://www.favicon-generator.org/
-meta_image = ""
-themecolor = ""
+useFaviconGenerator = false # https://www.favicon-generator.org/
+meta_image = "/images/whoami/avatar.jpeg"
+themecolor = "solarized"
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
@@ -24,7 +25,7 @@ enableAppbarSearchIcon = false
 enableAppbarLangIcon = false
 
 # header
-homeHeaderType = "text" # text, img, slide, typewriter
+homeHeaderType = "typewriter" # text, img, slide, typewriter
 hideHomeHeaderWhenMobile = false
 
 # menu
@@ -42,8 +43,8 @@ searchThreshold = 0.4 # 0.0: exact match, 1.0: any match
 enableBreadcrumb = true
 enableGoToTop = true
 enableWhoami = true
-summaryShape = "classic" # card, classic, compact
-archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+summaryShape = "compact" # card, classic, compact
+archiveGroupByDate = "2006-01" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13
 paginateWindow = 1
 talksPaginate = 5
@@ -67,7 +68,7 @@ bioImageUrl = ""
 useGravatar = false
 location = "Copenhagen, Denmark"
 organization = "Intellishore"
-link = "https://link_to_site.com"
+link = "https://bogdancioata.com"
 
 # sidebar
 enableBio = false
@@ -89,19 +90,19 @@ tocLevels = ["h2", "h3", "h4"]
 enableSidebarPostsByOrder = false
 
 # footer
-showPoweredBy = false
+showPoweredBy = true
 showFeedLinks = false
 showSocialLinks = true
-enableLangChange = true
+enableLangChange = false
 enableThemeChange = true
 
 # service
 googleTagManager = "" # GTM-XXXXXX
 baiduAnalytics = ""
 enableBusuanzi = false
-busuanziSiteUV = true
-busuanziSitePV = true
-busuanziPagePV = true
+busuanziSiteUV = false
+busuanziSitePV = false
+busuanziPagePV = false
 
 # rss
 updatePeriod = "" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
@@ -135,18 +136,18 @@ commento = false
   clientSecret = ""       # Your client secret
 
 [socialOptions]
-  email = "mailto:bogdan.cioata94@gmail.com"
+  email = ""
   phone = ""
   facebook = ""
   twitter = ""
-  github = "https://github.com/bogdan-cioata"
+  github = ""
   stack-overflow = ""
   instagram = ""
   google-plus = ""
   youtube = ""
   medium = ""
   tumblr = ""
-  linkedin = "https://www.linkedin.com/in/bogdan-cioata/"
+  linkedin = ""
   pinterest = ""
   stack-exchange = ""
   telegram = ""
@@ -175,8 +176,8 @@ commento = false
 
 # possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
 [[share]]
-  name = "facebook"
-  username = ""
+  name = "linkedin"
+
 [[share]]
   name = "twitter"
 

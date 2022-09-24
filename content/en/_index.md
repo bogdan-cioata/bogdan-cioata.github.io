@@ -3,12 +3,12 @@ header:
   - type: typewriter
     methods:
       - typeString: Hello world!
-      - pauseFor: 2500
+      - pauseFor: 1000
       - deleteAll: true
-      - typeString: Strings can be removed
-      - pauseFor: 2500
-      - deleteChars: 7
-      - typeString: <strong>altered!</strong>
+      - typeString: "This is Bogdan !"  
+      - pauseFor: 1000
+      - deleteChars: 1
+      - typeString: <strong> 👻 </strong>
       - pauseFor: 2500
     options:
       loop: true
@@ -17,18 +17,18 @@ header:
     paddingX: 50
     align: center
     fontSize: 44
-    fontColor: yellow
+    fontColor: orange
     
   - type: text
     height: 200
     paddingX: 50
     paddingY: 0
-    align: center
+    align: left
     title:
-      - HUGO
+      - Bogdan Cioată
     subtitle:
-      - The world’s fastest framework for building websites
-    titleColor: 
+      - Cloud data engineer
+    titleColor: orange
     titleShadow: true
     titleFontSize: 44
     subtitleColor: 
