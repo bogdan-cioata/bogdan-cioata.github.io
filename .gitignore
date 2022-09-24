@@ -1,4 +1,4 @@
-../personal_website/.idea/
+.idea/
 .vscode/
 node_modules/
 .DS_Store
