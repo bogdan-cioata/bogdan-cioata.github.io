@@ -21,12 +21,12 @@
         </div>
         {{ end }}<br>
         {{ with .infos.email }}
-          <div class="resume__header--info">
+          <div class="resume__header--email">
             <a href="mailto:{{ . }}" target="_blank" rel="noreferrer">{{ partial "svgs/social/email.svg" (dict "width" 20 "height" 20) }} {{ . }}</a>
           </div>
         {{ end }}
         {{ with .infos.phone }}
-          <div class="resume__header--info">
+          <div class="resume__header--phone">
             {{ partial "svgs/social/phone.svg" (dict "width" 20 "height" 20) }} {{ . }}
           </div>
         {{ end }}
@@ -53,16 +53,14 @@
     <aside class="resume__section--side">
       {{ with .Params.about }}
         <div class="resume__section--sectiontitle">{{ .label }}</div>
-          <div style="margin-left: 100px" class="single__contents resume__section--contents" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
+      <div class="px py p2 single__contents">
           {{ .text | markdownify }}
-        </div>
+      </div>
       {{ end }}
     </aside>
   </main>
   {{ with .Params.experience }}
-  <div class="resume__section--sectiontitle">
-    {{ .label }}
-  </div>
+  <div class="resume__section--sectiontitle">{{ .label }}</div>
   {{ end }}
   {{ range .Params.items }}
     <main class="resume__section" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}">
