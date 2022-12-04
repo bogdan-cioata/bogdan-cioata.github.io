@@ -20,7 +20,7 @@ header:
 about:
   label: About me
   text: |
-    I am a cloud data engineer specialized on AWS and DevOps technologies, as well accustomed working with different BI solutions used for building data warehouses, data marts, like Microsoft BI stack (SSIS, SSAS, SQL Server, PowerBI), Informatica, Tableau.
+    I am a cloud data engineer specialized on AWS and DevOps technologies, as well accustomed working with different BI solutions used for building data warehouses like Snowflake and Microsoft BI stack.
 
 experience:
   label: Experience
