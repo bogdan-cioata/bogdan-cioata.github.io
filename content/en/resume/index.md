@@ -16,7 +16,6 @@ header:
     github: bogdan-cioata
     phone: 
     linkedin: bogdan-cioata
-    website: https://www.bogdancioata.com
 
 about:
   label: About me
