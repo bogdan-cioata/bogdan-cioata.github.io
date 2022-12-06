@@ -26,7 +26,7 @@ experience:
   label: Experience
 
 items:
-  - title: INTELLISHORE
+  - title:
     url_company: https://intellishore.dk/
     image:
       src: images/resume/intellishore.jpeg
@@ -40,7 +40,7 @@ items:
         contents: | 
           Representing the company by delivering data engineering development and consulting expertise.
         
-  - title: Novo Nordisk
+  - title: 
     url_company: https://www.novonordisk.com/
     image:
       src: images/resume/novo_nordisk.png
@@ -58,7 +58,7 @@ items:
 
           Some services/tools I used: Lambda, Glue, Step Functions, Batch, SNS, SQS, DynamoDB, RDS, EC2, Docker, CodeStar, DMS, CDK, Cloudformation, Microsoft PowerAutomate.
 
-  - title: Cognizant Softvision
+  - title: 
     url_company: https://www.cognizantsoftvision.com/
     image:
       src: images/resume/cognizant_softvision.png
@@ -66,7 +66,7 @@ items:
       alt: bogdan cioata resume cognizant softvision image
     sections:
       - title: Data engineer
-        subtitle: Timisoara, Romania
+        subtitle: Timișoara, Romania
         startDate: 2020-04-01
         endDate: 2021-04-30
         contents: |
@@ -83,7 +83,7 @@ items:
           On the organisational side, I have **conducted interviews** and assessed candidates for the Big data team.
 
 
-  - title: Multibase GmbH
+  - title: 
     url_company: https://multibase.de/
     image:
       src: images/resume/multibase.png
@@ -102,7 +102,7 @@ items:
           Based on client's technologies/methodologies, I made use of: **Microsoft BI suite** (SSIS, SSAS, SSRS, SQL Server, PowerBI), **Oracle databases**, **Oracle APEX**, **SAP Data Services**, **MongoDB**, **Git**, **DataVault**, **dimensional modelling**.
         
 
-  - title: Linde Gas Romania
+  - title: 
     url_company: https://www.linde-gas.com/en/index.html
     image:
       src: images/resume/linde_gas.png
