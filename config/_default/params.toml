@@ -1,7 +1,7 @@
 logoText = "Bogdan Cioată"
 logoType = "short" # long, short
 description = "Bogdan Cioată's presentation website"
-welcomeMessage = "I’m a cloud data engineer and here is where I write down what I learn at work or in my own time."
+welcomeMessage = "I’m a cloud data engineer and here is where you can learn more about me. I will write down what I learn at work or in my own time."
 custom_css = []
 custom_js = []
 useFaviconGenerator = false # https://www.favicon-generator.org/
