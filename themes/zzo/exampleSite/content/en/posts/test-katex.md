@@ -6,7 +6,7 @@ draft: false
 enableToc: false
 enableTocContent: false
 tags:
-- 
+-
 series:
 -
 categories:
@@ -24,11 +24,11 @@ Is an integral
 
 $$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$
 
-Enable Katex in the config file by setting the `katex` param to `true`. This will import the necessary Katex CSS/JS. 
+Enable Katex in the config file by setting the `katex` param to `true`. This will import the necessary Katex CSS/JS.
 
-See the online reference of [supported TeX functions](https://katex.org/docs/supported.html). 
+See the online reference of [supported TeX functions](https://katex.org/docs/supported.html).
 
-**Note:** For inline math to render correctly, your content file extension must be `.mmark`. See the [official mmark site](https://mmark.nl/). 
+**Note:** For inline math to render correctly, your content file extension must be `.mmark`. See the [official mmark site](https://mmark.nl/).
 
 ```
 Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $

@@ -12,7 +12,7 @@
     <!-- Slides -->
     {{ .Inner }}
   </div>
-  
+
   {{ if $enablePagination }}
     <div class="swiper-pagination"></div>
   {{ end }}
@@ -31,7 +31,7 @@
     var options = JSON.parse({{ $swiper | jsonify }});
     {{ $optionName := .Params.option }}
     var optionName = JSON.parse({{ $optionName | jsonify }});
-    
+
     var id = JSON.parse({{ $id | jsonify }});
     var enableNavigation = JSON.parse({{ $enableNavigation | jsonify }});
     var enablePagination = JSON.parse({{ $enablePagination | jsonify }});
@@ -45,7 +45,7 @@
         el: '.swiper-pagination',
       };
     }
-    
+
     if (optionName && enableNavigation) {
       parsedOptions.navigation = {
         nextEl: '.swiper-button-next',
@@ -60,7 +60,7 @@
         slideElem.style.padding = '0 40px';
       }) : null;
     }
-    
+
     var mySwiper = new Swiper('#' + id, parsedOptions);
 
   });

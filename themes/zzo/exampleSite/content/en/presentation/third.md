@@ -24,10 +24,10 @@ revealBackgroundVideoLoop: false # true, false
 revealBackgroundVideoMuted: false # true, false
 revealBackgroundSize: "" # cover, contain, ...
 revealTheme: league
-reveal: 
+reveal:
   - main:
-    - sub: 
-      - | 
+    - sub:
+      - |
         ## Syntax highlighting
         ```go
         // If an unknown or empty style is provided, AP style is what you get.
@@ -43,7 +43,7 @@ reveal:
         }
         ```
   - main:
-    - sub: 
+    - sub:
       - |
         ## Mathjax 1
         \\[\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
@@ -52,7 +52,7 @@ reveal:
         \frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0
         \end{vmatrix}  \\]
   - main:
-    - sub: 
+    - sub:
       - |
         ## Mathjax 2
         \\[\begin{aligned}
@@ -61,12 +61,12 @@ reveal:
         \dot{z} &amp; = -\beta z + xy
         \end{aligned} \\]
   - main:
-    - sub: 
+    - sub:
       - |
         ## Mathjax 3
         \\[P(E)   = {n \choose k} p^k (1-p)^{ n-k} \\]
   - main:
-    - sub: 
+    - sub:
       - |
         ## Mathjax 4
         \\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =

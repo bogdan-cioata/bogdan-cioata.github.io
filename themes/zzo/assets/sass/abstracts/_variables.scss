@@ -1,6 +1,6 @@
 @import "../themes/theme";
 
-$text-font-stack: $content-font, 
+$text-font-stack: $content-font,
               'Muli',
               avenir,
               'helvetica neue', helvetica,
@@ -8,18 +8,18 @@ $text-font-stack: $content-font,
               roboto, noto,
               'segoe ui', arial,
               sans-serif !default;
-$code-font-stack: Consolas, 
+$code-font-stack: Consolas,
               Monaco,
               Menlo,
-              "DejaVu Sans Mono", 
-              "Bitstream Vera Sans Mono", 
-              "Courier New", 
-              "Lucida Console", 
-              "Lucida Sans Typewriter", 
-              "Liberation Mono", 
-              "Nimbus Mono L", 
-              Monaco, 
-              Courier, 
+              "DejaVu Sans Mono",
+              "Bitstream Vera Sans Mono",
+              "Courier New",
+              "Lucida Console",
+              "Lucida Sans Typewriter",
+              "Liberation Mono",
+              "Nimbus Mono L",
+              Monaco,
+              Courier,
               monospace !default;
 
 $z-indexes: ("modal", "navbar", "dropdown", "header", "gtt", "clipboard", "grid", "search-btn", "search", "content", "footer", "taxo", "toc", "gallery-mask", "card-outter", "card-inner");

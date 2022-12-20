@@ -18,13 +18,13 @@ revealBackgroundVideo: "" # /videos/myVideo.mp4 <= static folder path, A single 
 revealBackgroundVideoLoop: false # true, false
 revealBackgroundVideoMuted: false # true, false
 revealBackgroundSize: "" # cover, contain, ...
-reveal: 
+reveal:
   - main:
-    - sub: 
+    - sub:
       - |
         test 1
   - main:
-    - sub: 
+    - sub:
       - |
         test 2
 ---

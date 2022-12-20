@@ -20,13 +20,13 @@
     }
 
     &--info {
-      
+
     }
   }
 
   &__section {
     @include flexbox();
-    
+
     @media only screen and (max-width: 769px) {
       @include flex-direction(column);
     }
@@ -57,7 +57,7 @@
       }
 
       &--subtitle {
-        
+
       }
 
       &--contents {

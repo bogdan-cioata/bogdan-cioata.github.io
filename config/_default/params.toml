@@ -169,7 +169,7 @@ commento = false
 
 [donationOptions]
   enable = false
-  alipay = "" 
+  alipay = ""
   wechat = ""
   paypal = ""
   patreon = ""

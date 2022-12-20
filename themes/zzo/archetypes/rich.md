@@ -9,7 +9,7 @@ series:
 categories:
 -
 libraries:
-- katex 
+- katex
 - mathjax
 - chart
 - flowchartjs

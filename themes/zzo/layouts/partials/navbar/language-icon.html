@@ -1,7 +1,7 @@
 <div class="theme">
   <div class="dropdown">
     <button class="dropdown-trigger navbar__slide-down" aria-label="Select Language Button" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
-      {{ partial "svgs/etc/translate.svg" (dict "width" 22 "height" 22) }}      
+      {{ partial "svgs/etc/translate.svg" (dict "width" 22 "height" 22) }}
     </button>
     <div class="dropdown-content">
       {{ $siteLanguages := .Site.Languages }}

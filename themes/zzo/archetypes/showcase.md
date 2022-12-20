@@ -8,11 +8,11 @@ pinned: true
 thumb:
 weight:
 links:
-- name: 
-  icon: 
-  link: 
+- name:
+  icon:
+  link:
 shields:
-- name: 
-  image: 
-  link: 
+- name:
+  image:
+  link:
 ---

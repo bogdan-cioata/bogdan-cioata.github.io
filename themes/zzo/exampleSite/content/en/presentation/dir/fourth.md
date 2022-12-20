@@ -25,24 +25,24 @@ revealBackgroundVideo: "" # /videos/myVideo.mp4 <= static folder path, A single 
 revealBackgroundVideoLoop: false # true, false
 revealBackgroundVideoMuted: false # true, false
 revealBackgroundSize: "" # cover, contain, ...
-reveal: 
-  - main:    
-    - sub: 
-      - | 
+reveal:
+  - main:
+    - sub:
+      - |
         # Hugo
         ## The world’s fastest framework for building websites
 
-    - sub: 
-      - | 
+    - sub:
+      - |
         Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
   - main:
-    - sub: 
+    - sub:
       - |
         # Reveal.js
         ## A framework for easily creating beautiful presentations using HTML.
         - [Check out the live demo](https://revealjs.com/#/)
   - main:
-    - sub: 
+    - sub:
       - |
         You can easily create presentation documents using Markdown.
   - fragment:
@@ -56,16 +56,16 @@ reveal:
       - |
         #### go
   - main:
-    - sub: 
+    - sub:
       - |
         # POINT OF VIEW
 
         Press *ESC* to enter the slide overview.
 
-        Hold down the alt key (ctrl in Linux) and click on any element to zoom towards it using zoom.js. click again to zoom back out. 
-        
+        Hold down the alt key (ctrl in Linux) and click on any element to zoom towards it using zoom.js. click again to zoom back out.
+
         (NOTE\: Use ctrl + click in Linux)
-  - fragment: 
+  - fragment:
     - sub:
       - |
         ## FRAGMENTS

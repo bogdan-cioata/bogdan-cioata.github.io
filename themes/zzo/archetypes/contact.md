@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description: 
+description:
 type: contact
 service: formspree # formspree, getform
 formId: ""

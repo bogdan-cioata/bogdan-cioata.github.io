@@ -143,7 +143,7 @@ commento = false
   appKey = '你的appKey'
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
   verify = false # Verification code
-  avatar = 'mm' 
+  avatar = 'mm'
   placeholder = '说点什么吧...'
   visitor = false
 
@@ -194,7 +194,7 @@ commento = false
 
 [donationOptions]
   enable = false
-  alipay = "" 
+  alipay = ""
   wechat = ""
   paypal = ""
   patreon = ""

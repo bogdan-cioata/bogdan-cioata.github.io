@@ -1,4 +1,4 @@
-English | 
+English |
 [한국어](https://github.com/zzossig/hugo-theme-zzo/blob/master/README.ko.md)
 
 ## Hugo Theme Zzo

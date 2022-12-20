@@ -8,7 +8,7 @@
 
   (function () {
     var singleContentsElem = document.querySelector('.single__contents');
-    singleContentsElem ? 
+    singleContentsElem ?
     singleContentsElem.querySelectorAll('pre > code').forEach(function(elem) {
       var dataLang = elem.getAttribute('data-lang');
       var dataLangWrapper = document.createElement('div');
@@ -46,7 +46,7 @@
   }) : null;
   // =================================================================
 
-  
+
 
   // ================ codeblock line number to symbol ================
   var dollarCodeElem = document.querySelectorAll('div.language-\\$');
@@ -55,7 +55,7 @@
   dollarCodeElem ?
   dollarCodeElem.forEach(function(elem) {
     var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
-    lnts ? 
+    lnts ?
     lnts.forEach(function(lnt) {
       lnt.innerHTML = '$<br/>';
     }) : null;
@@ -64,7 +64,7 @@
   gtCodeElem ?
   gtCodeElem.forEach(function(elem) {
     var lnts = elem.parentNode.parentNode ? elem.parentNode.parentNode.querySelectorAll('.lnt') : null;
-    lnts ? 
+    lnts ?
     lnts.forEach(function(lnt) {
       lnt.innerHTML = '><br/>';
     }) : null;

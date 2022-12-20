@@ -16,7 +16,7 @@
   &__nav {
     padding: 0.5rem 0;
     margin-bottom: 0.5rem;
-    
+
     @include themify($themes) {
       border-bottom: 1px solid themed('hr-color');
     }
@@ -50,7 +50,7 @@
       border-radius: 0.25rem;
       margin: auto;
       font-size: 12px;
-      
+
       @include themify($themes) {
         color: themed('taxo-num-color');
         background-color: themed('taxo-num-background-color');

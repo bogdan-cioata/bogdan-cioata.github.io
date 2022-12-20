@@ -8,7 +8,7 @@ enableToc: true
 enableTocContent: false
 author: Lee
 authorEmoji: 👺
-tags: 
+tags:
 - shortcodes
 - privacy
 image: images/feature2/content.png

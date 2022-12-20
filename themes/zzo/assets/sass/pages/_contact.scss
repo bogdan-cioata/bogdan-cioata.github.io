@@ -1,4 +1,4 @@
-.contact { 
+.contact {
   padding: 1rem;
   overflow-wrap: break-word;
 
@@ -31,7 +31,7 @@
     }
 
     &--container {
-      margin-bottom: 0.25rem;      
+      margin-bottom: 0.25rem;
 
       @media only screen and (max-width: 769px) {
         display: block;
@@ -69,7 +69,7 @@
   }
 
   &__desc {
-    width: 65%; 
+    width: 65%;
 
     @media only screen and (max-width: 769px) {
       width: 100%;
@@ -79,7 +79,7 @@
   &__form {
     width: 65%;
 
-    @include flexbox(); 
+    @include flexbox();
     @include flex-direction(column);
     @media only screen and (max-width: 769px) {
       width: 100%;

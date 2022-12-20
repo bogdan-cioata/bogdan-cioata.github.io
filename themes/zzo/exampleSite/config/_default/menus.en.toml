@@ -21,7 +21,7 @@
   name = "Gallery"
   url = "gallery"
   weight = 4
-    
+
 [[main]]
   parent = "gallery"
   name = "Cartoon"

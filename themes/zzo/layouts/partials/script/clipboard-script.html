@@ -17,7 +17,7 @@
     var makeClipboard = function(elem) {
       var code = elem,
           text = elem.textContent;
-        
+
       if (text.length > 15) {
         if (!clipInit) {
           var text, clip = new ClipboardJS('.copy-to-clipboard', {
@@ -81,21 +81,21 @@
       elem.parentNode.parentNode.insertBefore(clipboardSpan, elem.parentNode.nextElementSibling);
     }
 
-    preChromaElem ? 
+    preChromaElem ?
     preChromaElem.forEach(function(elem) {
       elem.querySelectorAll('code').forEach(function(codeElem) {
         makeClipboard(codeElem);
       });
     }) : null;
-    
-    langCodeElem ? 
+
+    langCodeElem ?
     langCodeElem.forEach(function(elem) {
       elem.querySelectorAll('code').forEach(function (codeElem) {
         makeClipboard(codeElem);
       });
     }) : null;
 
-    dollarCodeElem ? 
+    dollarCodeElem ?
     dollarCodeElem.forEach(function(elem) {
       elem.querySelectorAll('code').forEach(function (codeElem) {
         makeSymbolClipboard(codeElem);

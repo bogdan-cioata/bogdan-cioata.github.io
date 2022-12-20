@@ -5,7 +5,7 @@ header:
       - typeString: Hello world!
       - pauseFor: 1000
       - deleteAll: true
-      - typeString: "This is Bogdan !"  
+      - typeString: "This is Bogdan !"
       - pauseFor: 1000
       - deleteChars: 1
       - typeString: <strong> 👻 </strong>
@@ -18,7 +18,7 @@ header:
     align: center
     fontSize: 44
     fontColor: orange
-    
+
   - type: text
     height: 200
     paddingX: 50
@@ -31,11 +31,11 @@ header:
     titleColor: orange
     titleShadow: true
     titleFontSize: 44
-    subtitleColor: 
+    subtitleColor:
     subtitleCursive: true
     subtitleFontSize: 18
     spaceBetweenTitleSubtitle: 16
-  
+
   - type: img
     imageSrc: images/header/background.jpg
     imageSize: cover

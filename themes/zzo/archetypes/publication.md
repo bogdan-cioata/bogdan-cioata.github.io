@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 shorttitle:
 date: {{ .Date }}
-description: 
+description:
 type: publication
 authors: []
 publication:

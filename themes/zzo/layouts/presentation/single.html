@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "languagedir" | default "ltr" }}">
-  
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,30 +21,30 @@
         {{ $backgroundVideo := .Params.revealBackgroundVideo }}
         {{ $backgroundVideoLoop := .Params.revealBackgroundVideoLoop }}
         {{ $backgroundVideoMuted := .Params.revealBackgroundVideoMuted }}
-        {{ $backgroundSize := .Params.revealBackgroundSize }} 
-        
+        {{ $backgroundSize := .Params.revealBackgroundSize }}
+
         {{ range $.Params.reveal }}
         <section data-background-color="{{ if $backgroundColor  }}{{ $backgroundColor }}{{ end }}" data-background-image="{{ if $backgroundImage  }}{{ $backgroundImage }}{{ end }}" data-background-position="{{ if $backgroundPosition  }}{{ $backgroundPosition }}{{ end }}" data-background-repeat="{{ if $backgroundRepeat  }}{{ $backgroundRepeat }}{{ end }}" data-background-opacity="{{ if $backgroundOpacity  }}{{ $backgroundOpacity }}{{ end }}" data-background-video="{{ if $backgroundVideo  }}{{ $backgroundVideo }}{{ end }}" data-background-video-loop="{{ if $backgroundVideoLoop  }}{{ $backgroundVideoLoop }}{{ end }}" data-background-video-muted="{{ if $backgroundVideoMuted  }}{{ $backgroundVideoMuted }}{{ end }}" data-background-size="{{ if $backgroundSize  }}{{ $backgroundSize }}{{ end }}">
           {{ range $k, $v := . }}
-            
+
             {{ if eq $k "main" }}
               {{ range $v }}
-                  {{ range .sub }}                
+                  {{ range .sub }}
                     <section data-markdown>
                       <textarea data-template>
-                        {{ . }}          
+                        {{ . }}
                       </textarea>
                     </section>
                   {{ end }}
               {{ end }}
-            
+
             {{ else if eq $k "fragment" }}
-              
+
               {{ $result := "" }}
-              {{ range $v }}                
+              {{ range $v }}
                 {{ range .sub }}
                   {{ $result = (print $result "<span class='fragment'>" (. | markdownify) "</span>") }}
-                {{ end }}                  
+                {{ end }}
               {{ end }}
 
               <section data-markdown>
@@ -57,7 +57,7 @@
           {{ end }}
         </section>
         {{ end }}
-        
+
     </div>
 </div>
 </html>

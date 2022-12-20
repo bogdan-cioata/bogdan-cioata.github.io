@@ -12,7 +12,7 @@ author:
 authorEmoji: 🤖
 authorImage: "/images/whoami/avatar.jpg"
 authorImageUrl: ""
-authorDesc: 
+authorDesc:
 socialOptions:
   email: ""
   phone: ""

@@ -18,24 +18,24 @@
           @include themify($themes) {
             color: themed('pagination-number-color');
             text-decoration: none;
-          }      
+          }
         }
       }
     }
-    
+
     &.active {
       font-weight: bold;
       a {
         @include themify($themes) {
           color: themed('link-hover');
-        }      
+        }
       }
     }
   }
 
   a {
     font-size: 1.25rem;
-    padding: 0.5rem 0.75rem;    
+    padding: 0.5rem 0.75rem;
     @include themify($themes) {
       color: themed('pagination-number-color');
       @include on-event {
@@ -66,7 +66,7 @@
     @include align-items(center);
     @include justify-content(center);
     @include transition(all, 0.2s, ease-out);
-    
+
     font-family: $title-font;
     padding: 0.25rem;
     border-radius: 0.125rem;
@@ -88,7 +88,7 @@
   &__left {
     @include on-event {
       @include translateX(-0.25rem);
-    }    
+    }
   }
 
   &__right {

@@ -5,7 +5,7 @@ description: Bogdan Cioata's CV
 type: resume
 enableToc: true
 header:
-  image: 
+  image:
     src: images/whoami/avatar.jpeg
     height: 200
     alt: bogdan cioata resume image
@@ -14,7 +14,7 @@ header:
     addr: Copenhagen, Denmark
     email: bogdan.cioata94@gmail.com
     github: bogdan-cioata
-    phone: 
+    phone:
     linkedin: bogdan-cioata
 
 about:
@@ -37,10 +37,10 @@ items:
         subtitle: Copenhagen, Denmark
         startDate: 2022-08-01
         endDateText: current
-        contents: | 
+        contents: |
           Representing the company by delivering data engineering development and consulting expertise.
-        
-  - title: 
+
+  - title:
     url_company: https://www.novonordisk.com/
     image:
       src: images/resume/novo_nordisk.png
@@ -53,12 +53,12 @@ items:
         endDate: 2022-07-31
         contents: |
           In the current role I am working on hydrating a data lake with supply chain data coming from various data sources.
-          
+
           Apart from the development tasks, I am actively working on designing the future data architecture, so to enable advanced analytics workloads, as well as traditional reporting.
 
           Some services/tools I used: Lambda, Glue, Step Functions, Batch, SNS, SQS, DynamoDB, RDS, EC2, Docker, CodeStar, DMS, CDK, Cloudformation, Microsoft PowerAutomate.
 
-  - title: 
+  - title:
     url_company: https://www.cognizantsoftvision.com/
     image:
       src: images/resume/cognizant_softvision.png
@@ -73,17 +73,17 @@ items:
           Working at **Cognizant Softvision** have brought me the chance to do the shift towards cloud technologies and DevOps tools, such as **AWS** and **Terraform**.
 
           The project day to day tasks required development and maintenance of data pipelines that were meant to ingest and process data from **relational databases**, **streaming data** sources and flat files into an enterprise datalake. _Lambda, Glue, DynamoDB, DAX, Kinesis Firehose, CodePipeline_ were the bread and butter, while the CI/CD infrastructure was managed with Terraform.
-          
+
           Worked in close contact with the infrastructure team, by spotting bugs and suggesting new features to existing code base. Developed and maintained code according to domain best practices (Unit tests, SemVer, SOLID).
-          
+
           Apart from the development tasks, I have supported the operational team in their tasks, by debugging and tuning **PySpark** intensive data processing jobs on top of **Palantir Foundry**.
-          
+
           Along with this, I have worked on developing a Django internal web app.
-          
+
           On the organisational side, I have **conducted interviews** and assessed candidates for the Big data team.
 
 
-  - title: 
+  - title:
     url_company: https://multibase.de/
     image:
       src: images/resume/multibase.png
@@ -95,14 +95,14 @@ items:
         startDate: 2018-04-01
         endDate: 2020-04-30
         contents: |
-          I was responsible for multiple clients of the company. 
-    
-          My daily tasks included building **traditional data warehouses** from scratch, extending and maintaining existing ones, frontend applications, ETL flows, support client's developers, testing and software documentation.
-       
-          Based on client's technologies/methodologies, I made use of: **Microsoft BI suite** (SSIS, SSAS, SSRS, SQL Server, PowerBI), **Oracle databases**, **Oracle APEX**, **SAP Data Services**, **MongoDB**, **Git**, **DataVault**, **dimensional modelling**.
-        
+          I was responsible for multiple clients of the company.
 
-  - title: 
+          My daily tasks included building **traditional data warehouses** from scratch, extending and maintaining existing ones, frontend applications, ETL flows, support client's developers, testing and software documentation.
+
+          Based on client's technologies/methodologies, I made use of: **Microsoft BI suite** (SSIS, SSAS, SSRS, SQL Server, PowerBI), **Oracle databases**, **Oracle APEX**, **SAP Data Services**, **MongoDB**, **Git**, **DataVault**, **dimensional modelling**.
+
+
+  - title:
     url_company: https://www.linde-gas.com/en/index.html
     image:
       src: images/resume/linde_gas.png
@@ -114,7 +114,7 @@ items:
         startDate: 2017-01-01
         endDate: 2018-04-30
         contents: |
-          Responsible for **backend data preparation** for financial KPI reports shown in Tableau dashboards, which were connected live to **SAP HANA database**. 
+          Responsible for **backend data preparation** for financial KPI reports shown in Tableau dashboards, which were connected live to **SAP HANA database**.
           The data stored in SAP HANA databases was prepared accordingly to business rules with **R scripts** and ETL mappings created in **Informatica PowerCenter**.
 
       - title: ETL developer
@@ -123,6 +123,6 @@ items:
         endDate: 2016-12-31
         contents: |
           I was responsible for the ETL processes of Vendor Master Data department.
-        
+
           My main duty was to develop, maintain and improve data quality rules in **Informatica PowerCenter** suite, altogether with data preparation, required for Tableau dashboards, for which I've been partly involved in sketching them.
 ---

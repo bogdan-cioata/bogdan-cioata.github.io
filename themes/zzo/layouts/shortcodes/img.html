@@ -1,6 +1,6 @@
 <figure {{ with .Get "class" }}class="{{ . }}" {{ end }}>
   {{ with .Get "link"}}<a href="{{ . }}">{{ end }}
-  
+
   {{ if or (eq (.Get "lazy") false) (eq (.Get "lazy") "false") }}
     <img src="{{ .Get "src" | relURL }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} style="width:{{ .Get "width" }};height:{{ .Get "height" }};"/>
   {{ else }}

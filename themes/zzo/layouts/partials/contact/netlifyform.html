@@ -27,14 +27,14 @@
   {{ if ($.Param "recaptcha") }}
     <div data-netlify-recaptcha="true" class="contact__input--wrapper"></div>
   {{ end }}
-  
+
   <input type="submit" value="{{ i18n "contact-send" }}" class="contact__send">
 </form>
 
 <script>
   var formElem = document.querySelector("form");
   formElem.addEventListener("submit", handleSubmit);
-  
+
   var handleSubmit = function(e) {
     e.preventDefault();
     var formData = new FormData(formElem)

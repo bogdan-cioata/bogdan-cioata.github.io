@@ -1,36 +1,36 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description: 
+description:
 type: resume
 enableToc: false
 header:
-  image: 
-    src: 
-    height: 
-    alt: 
+  image:
+    src:
+    height:
+    alt:
   infos:
-    name: 
-    email: 
-    phone: 
-    website: 
-    addr: 
+    name:
+    email:
+    phone:
+    website:
+    addr:
 items:
-  - title: 
+  - title:
     sections:
-      - title: 
-        subtitle: 
-        startDate: 
-        endDateText: 
-        endDate: 
-        contents: | 
-        
-  - title: 
+      - title:
+        subtitle:
+        startDate:
+        endDateText:
+        endDate:
+        contents: |
+
+  - title:
     sections:
-      - title: 
-        subtitle: 
-        startDate: 
-        endDateText: 
-        endDate: 
-        contents: | 
+      - title:
+        subtitle:
+        startDate:
+        endDateText:
+        endDate:
+        contents: |
 ---

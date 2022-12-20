@@ -41,10 +41,10 @@
 {{ $reveal_script := resources.Get "lib/reveal/reveal.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $reveal_script.RelPermalink }}"></script>
 <script defer src="{{ $reveal.plugin.marked.url }}" integrity="{{ $reveal.plugin.marked.sri }}" crossorigin="anonymous"></script>
-<script defer src="{{ $reveal.plugin.markdown.url }}" integrity="{{ $reveal.plugin.markdown.sri }}" crossorigin="anonymous"></script>  
+<script defer src="{{ $reveal.plugin.markdown.url }}" integrity="{{ $reveal.plugin.markdown.sri }}" crossorigin="anonymous"></script>
 
 {{ if in .Params.Plugins "highlight" }}
-  
+
 {{ if eq .Params.highlightTheme "zenburn" }}
     {{ $highlight_style := resources.Get "lib/reveal/highlight/zenburn.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $highlight_style.RelPermalink }}">

@@ -9,13 +9,13 @@
     @include flexbox();
     @include flex-direction(column);
   }
-  
+
   &__toolbar {
     &--search {
       width: 240px;
       padding: 0 0.5rem;
       margin-right: 1rem;
-      
+
       @media only screen and (max-width: 600px) {
         width: 100%;
       }
@@ -64,7 +64,7 @@
   &__btn {
     padding: 0 0.4rem;
     border-radius: 0.2rem;
-    
+
     @include themify($themes) {
       color: themed('body-color') !important;
       background-color: themed('donation-background-color');
@@ -124,7 +124,7 @@
     &--title {
       font-size: 1rem;
       font-family: $title-font;
-      
+
       @include themify($themes) {
         color: themed('title-color');
       }
@@ -145,7 +145,7 @@
       a {
         margin: 0.125rem;
         z-index: z('card-outter');
-        
+
         @include themify($themes) {
           color: themed('meta-color');
           text-decoration: none;

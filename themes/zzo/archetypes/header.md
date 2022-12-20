@@ -11,14 +11,14 @@ header:
     subtitle:
       - header subtitle1
       - header subtitle2
-    titleColor: 
+    titleColor:
     titleShadow: false
     titleFontSize: 44
     subtitleColor:
     subtitleCursive: false
     subtitleFontSize: 16
     spaceBetweenTitleSubtitle: 20
-  
+
   - type: img
     image: images/header/background.png
     height: 235
@@ -31,10 +31,10 @@ header:
     subtitle:
       - header subtitle1
       - header subtitle2
-    titleColor: 
+    titleColor:
     titleShadow: false
     titleFontSize: 44
-    subtitleColor: 
+    subtitleColor:
     subtitleCursive: false
     subtitleFontSize: 16
     spaceBetweenTitleSubtitle: 20

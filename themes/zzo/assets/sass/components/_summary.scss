@@ -1,6 +1,6 @@
 .summary-card {
   padding: 1rem;
-  
+
   &[data-ani="true"] {
     @include animation('slide-in-down .2s .3s 1 ease-in both');
   }
@@ -44,7 +44,7 @@
     &[data-ani="true"] {
       @include animation('slide-in-left .2s .6s 1 ease-in both');
     }
-    
+
     &-wrapper {
       height: 100%;
       width: auto;
@@ -73,7 +73,7 @@
   }
   &:not(:last-child) {
     hr {
-      margin-bottom: 2.5rem;      
+      margin-bottom: 2.5rem;
     }
   }
   &:last-child {
@@ -117,7 +117,7 @@
 
   &__flex-box {
     @include flexbox();
-    
+
     margin-top: 1rem;
     margin-bottom: 1rem;
 
@@ -129,7 +129,7 @@
   &__content {
     width: 100%;
     padding: 0 0.5rem;
-    
+
     @include flexbox();
     @include flex-direction(column);
     @include justify-content(flex-start);
@@ -158,7 +158,7 @@
       &[data-position="left"] {
         margin-left: .5rem;
       }
-      
+
       &[data-position="right"] {
         margin-right: .5rem;
       }
@@ -169,7 +169,7 @@
         background-color: rgba(125, 125, 125, 0.1);
       }
     }
-        
+
     &-wrapper {
       max-width: 130px;
       min-width: 130px;
@@ -196,10 +196,10 @@
 
   &:not(:last-child) {
     hr {
-      margin-bottom: 1.5rem;      
+      margin-bottom: 1.5rem;
     }
   }
-  
+
   &:last-child {
     hr {
       display: none;
@@ -230,7 +230,7 @@
       color: themed('meta-color');
     }
   }
-  
+
   &__flexbox {
     @include flexbox();
     margin-top: 1rem;

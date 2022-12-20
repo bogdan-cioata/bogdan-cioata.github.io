@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description: 
+description:
 type: presentation
 tags:
 -
@@ -25,16 +25,16 @@ revealBackgroundVideo: "" # /videos/myVideo.mp4 <= static folder path, A single 
 revealBackgroundVideoLoop: false # true, false
 revealBackgroundVideoMuted: false # true, false
 revealBackgroundSize: "" # cover, contain, ...
-reveal: 
+reveal:
   - main:
-    - sub: 
-      - | 
-
-    - sub: 
-      - | 
-      
-  - main:
-    - sub: 
+    - sub:
       - |
-      
+
+    - sub:
+      - |
+
+  - main:
+    - sub:
+      - |
+
 ---

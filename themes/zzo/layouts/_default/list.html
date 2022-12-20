@@ -19,7 +19,7 @@
             {{ partial "pagination/pagination" . }}
         </div>
         {{ partial "search/search-result-desktop" . }}
-    </div>    
+    </div>
 
     {{ if $.Param "enableSidebar" }}
         <aside class="list__sidebar {{ if eq ($.Param "sidebarPosition") "left" }}l{{ else }}r{{ end }}" data-dir="{{ $.Param "languagedir" | default "ltr" }}">

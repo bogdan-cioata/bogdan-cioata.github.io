@@ -30,7 +30,7 @@
     &:first-child {
       border-top-left-radius: 0.25rem;
     }
-    
+
     @include transition(all, 0.2s, ease-in);
     @include themify($themes) {
       color: themed('navbar-title-color');
