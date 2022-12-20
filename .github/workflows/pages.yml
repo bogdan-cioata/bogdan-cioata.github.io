@@ -33,7 +33,7 @@ jobs:
         with:
           submodules: recursive
       - name: Pre-commit Hooks
-        uses: pre-commit/action@v3
+        uses: pre-commit/action@v3.0.0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
