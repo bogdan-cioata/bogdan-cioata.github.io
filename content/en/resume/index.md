@@ -33,7 +33,7 @@ items:
       height: 150
       alt: bogdan cioata resume intellishore image
     sections:
-      - title: Senior data engineer
+      - title: Senior Data Engineer
         subtitle: Copenhagen, Denmark
         startDate: 2022-08-01
         endDateText: current
@@ -47,7 +47,7 @@ items:
       height: 100
       alt: bogdan cioata resume novo nordisk image
     sections:
-      - title: Senior data engineer
+      - title: Senior Data Engineer
         subtitle: Copenhagen, Denmark
         startDate: 2021-04-01
         endDate: 2022-07-31
@@ -65,7 +65,7 @@ items:
       height: 80
       alt: bogdan cioata resume cognizant softvision image
     sections:
-      - title: Data engineer
+      - title: Data Engineer
         subtitle: Timișoara, Romania
         startDate: 2020-04-01
         endDate: 2021-04-30
