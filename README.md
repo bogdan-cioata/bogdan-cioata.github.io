@@ -5,4 +5,5 @@ This is my personal static website, built on top of [gohugo.io](https://gohugo.i
 Reference documentation: https://zzo-docs.vercel.app/zzo
 
 Start server locally: `hugo server`
+
 Website link: [bogdan-cioata.github.io](bogdan-cioata.github.io)
