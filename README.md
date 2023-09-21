@@ -6,4 +6,4 @@ Reference documentation: https://zzo-docs.vercel.app/zzo
 
 Start server locally: `hugo server`
 
-Website link: [bogdan-cioata.github.io](bogdan-cioata.github.io)
+See it [live](https://bogdan-cioata.github.io/) 
